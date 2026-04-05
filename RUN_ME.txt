@@ -1,0 +1,70 @@
+===============================================
+MEMORY EFFICIENT FILE DEDUPLICATION SYSTEM
+HOW TO RUN - STEP BY STEP
+===============================================
+
+STEP 1: Run 1-INSTALL.bat (One Time Only)
+------------------------------------------
+1. Double-click on "1-INSTALL.bat"
+2. It will download and install Java 17 and Maven
+3. Wait for it to say "Installation complete!"
+4. Close that window
+5. IMPORTANT: Close ALL Command Prompt windows
+6. Open a NEW Command Prompt window
+
+STEP 2: Run setup.bat
+---------------------
+1. In the NEW Command Prompt, type:
+   cd "c:\Users\mohan\OneDrive\Documents\Desktop\vaibhav\Memory Efficient File Deduplication System"
+   setup.bat
+2. Press Enter
+3. Wait for application to start (3-5 minutes first time)
+
+STEP 3: Open Browser
+--------------------
+1. Open Chrome or Edge
+2. Go to: http://localhost:8080
+
+STEP 4: Register Account
+-----------------------
+1. Click "Register" tab
+2. Enter:
+   - Username: myuser
+   - Email: myuser@email.com
+   - Full Name: My User
+   - Password: mypassword
+3. Click "Register" button
+
+STEP 5: Login
+-------------
+1. Click "Login" tab
+2. Enter your username and password
+3. Click "Login"
+
+STEP 6: Use the App
+-------------------
+1. Upload files using drag & drop
+2. Watch memory savings on dashboard!
+
+===============================================
+FILES IN PROJECT:
+===============================================
+1-INSTALL.bat - Installs Java & Maven (run once)
+setup.bat     - Starts the application
+pom.xml      - Maven configuration
+src/         - All source code files
+index.html   - The web interface
+
+===============================================
+IF YOU GET ERRORS:
+===============================================
+Q: "mvn is not recognized"
+A: You need to close Command Prompt and open a NEW one after running 1-INSTALL.bat
+
+Q: "java is not recognized"
+A: Same as above - close and reopen Command Prompt
+
+Q: Application won't start
+A: Check if port 8080 is being used by another program
+
+===============================================
